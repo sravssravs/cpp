@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    float area,radius;
+    cin>>radius;
+    area=radius*radius*3.14;
+    cout<<fixed<<setprecision(2)<<area;
+}
