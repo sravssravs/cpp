@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double p,r,t;
+    float ci;
+    cin>>p;
+    cin>>r;
+    cin>>t;
+    ci=p*pow((1+r/100),t);
+    cout<<fixed<<setprecision(2)<<ci;
+}
